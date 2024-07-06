@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="./CSS/Weather.css">
+</head>
+<body>
+    <section class="wrap-1">
+        <div class="container">
+            <h1>Weather Api</h1>
+            <div class="row">
+                <div class="col-6 col-t-12">
+                    <div class="side show">
+                        <h2 class="city">Jaunpur</h2>
+                        <p class="date">Date</p>
+                        <img src="./images/drizzle.png" alt="drizzle" class="weather-icon" width="224" height="224">
+                        <h3 class="temp">31 °C</h3>
+                        <p class="weather-description">Few Cloud</p>
+                        <p class="feels_like">33°C Feels like</p>
+                    </div>
+                </div>
+                <div class="col-6 col-t-12">
+                    <div class="side">
+                       <div class="search">
+                            <input type="search" name="search" id="search" placeholder="Enter City Name">
+                            <button type="button" class="btn">Search</button>
+                       </div>
+                        <div class="row">
+                            <div class="col-6 col-p-12">
+                                <div class="humidity flex justify-center">
+                                    <img src="./images/humidity.webp" alt="humidity" width="55" height="73">
+                                    <div>
+                                        <p class="humid">60 %</p>
+                                        <p>Humidity</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-p-12">
+                                <div class="humidity flex justify-center">
+                                    <img src="./images/wind.webp" alt="wind" width="65" height="65">
+                                    <div>
+                                        <p class="wind">7 km/h</p>
+                                        <p>Wind</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-p-12">
+                                <div class="humidity flex justify-center">
+                                    <img src="./images/gauge.webp" alt="pressure" width="60" height="60">
+                                    <div>
+                                        <p class="pressure">900 mb</p>
+                                        <p>Pressure</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-p-12">
+                                <div class="humidity flex justify-center">
+                                    <img src="./images/visibility.webp" alt="Visibility" width="79" height="66">
+                                    <div>
+                                        <p class="visibility">3.5 km</p>
+                                        <p>Visibility</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-p-12">
+                                <div class="humidity flex justify-center">
+                                    <img src="./images/fever.webp" alt="humidity" width="48" height="66">
+                                    <div>
+                                        <p class="temp_max">38°C</p>
+                                        <p>Max Temp</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-p-12">
+                                <div class="humidity flex justify-center">
+                                    <img src="./images/low-temperature.webp" alt="humidity" width="55" height="62">
+                                    <div>
+                                        <p class="temp_min">30°C</p>
+                                        <p>Min Temp</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./JS/weather.js"></script>
+</body>
+</html>
